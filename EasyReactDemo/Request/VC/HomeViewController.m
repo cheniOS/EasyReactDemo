@@ -77,14 +77,7 @@ static NSString * const imageListCell= @"imageListCell";
             
             self.weatherLabel.text  =  [NSString stringWithFormat:@"%@\n%@",forecastModel.date,model.ganmao];
         }
-        
-        
-            
-        
-        
-        
- 
-       
+
     }];
     [[self.viewModel.errorNode listenedBy:self]withBlockOnMainQueue:^(id  _Nullable next){
          @ezr_strongify(self)
