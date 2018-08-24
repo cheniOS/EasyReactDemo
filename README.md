@@ -44,8 +44,21 @@
     return self;
 }
 </code></pre>
+ *
+ * 在VC使用过程中对viewmodel的resultNode进行监听，对viewmodel的parameters节点进行赋值，通过监听到RequestResultModel的requestUrl去区分不同的请求【用这种方式可能比较迂回,有更好的方式欢迎指正】
+  <pre><code>
+ //网络请求请求
+-(void)requestHotData{
+    RequestModel * requestModel = [[RequestModel alloc]init];
+    NSMutableDictionary * params = [[NSMutableDictionary alloc]init];
+    [params setObject:@(1) forKey:@"type"];
+    [params setObject:@(self.viewModel.page) forKey:@"page"];
+    requestModel.params = params;
+    requestModel.requestUrl = meituUrl;
+    [self.viewModel.parameters setValue:requestModel];
  
- * 在VC使用过程中对viewmodel的resultNode进行监听，通过监听到RequestResultModel的requestUrl去区分不同的请求【用这种方式可能比较迂回,有更好的方式欢迎指正】
+}
+</code></pre>
  <pre><code>
      @ezr_weakify(self)
     [[self.viewModel.resultNode listenedBy:self]withBlockOnMainQueue:^(id  _Nullable next) {
@@ -53,26 +66,11 @@
          @ezr_strongify(self)
         RequestResultModel * resultModel = (RequestResultModel *)next;
         if ([meituUrl isEqualToString: resultModel.requestUrl] ) {
-            if (self.viewModel.page == 1) {
-                [self.viewModel.imageListArray removeAllObjects];
-            }
-            NSArray * data  = [ resultModel.result objectForKey:@"data"];
-            for (NSDictionary * dic in data) {
-                HomeImageListModel * model = [HomeImageListModel modelWithDictionary:dic];
-                [self.viewModel.imageListArray  addObject:model];
-            }
-             [self.listTableView reloadData];
-            [self.listTableView.mj_header endRefreshing];
-            [self.listTableView.mj_footer endRefreshing];
+          
         }
  
         if ([weatherUrl isEqualToString:resultModel.requestUrl]) {
-            NSDictionary * dataDic  = [ resultModel.result objectForKey:@"data"];
-            HomeWeatherModel * model = [HomeWeatherModel modelWithDictionary:dataDic];
-            ForecastModel * forecastModel = model.forecast[0];
-            ForecastModel * forecastModel = model.forecast[0];
-            ForecastModel * forecastModel = model.forecast[0];
-            self.weatherLabel.text  =  [NSString stringWithFormat:@"%@\n%@",forecastModel.date,model.ganmao];
+          
         }
 
     }];
