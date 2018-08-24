@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26DE9DAC16F5F71D07628A1C /* libPods-EasyReactDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC668C3A1FD032EF2A153DA4 /* libPods-EasyReactDemo.a */; };
+		7260AFF2FED6BBCFBA775A2E /* libPods-EasyReactDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC76FAB8882207A252BA83AF /* libPods-EasyReactDemoTests.a */; };
+		7A9CB0A681AEFD038F8C20EF /* libPods-EasyReactDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B46F583E763D5216BCDD11F /* libPods-EasyReactDemoUITests.a */; };
+		8F57FF17212E58DE00AC7DF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F57FF16212E58DE00AC7DF2 /* AppDelegate.m */; };
+		8F57FF1A212E58DE00AC7DF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F57FF19212E58DE00AC7DF2 /* ViewController.m */; };
+		8F57FF1D212E58DE00AC7DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F57FF1B212E58DE00AC7DF2 /* Main.storyboard */; };
+		8F57FF1F212E58E500AC7DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F57FF1E212E58E500AC7DF2 /* Assets.xcassets */; };
+		8F57FF22212E58E500AC7DF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F57FF20212E58E500AC7DF2 /* LaunchScreen.storyboard */; };
+		8F57FF25212E58E500AC7DF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F57FF24212E58E500AC7DF2 /* main.m */; };
+		8F57FF2F212E58E500AC7DF2 /* EasyReactDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F57FF2E212E58E500AC7DF2 /* EasyReactDemoTests.m */; };
+		8F57FF3A212E58E500AC7DF2 /* EasyReactDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F57FF39212E58E500AC7DF2 /* EasyReactDemoUITests.m */; };
+		8F57FF49212E89C000AC7DF2 /* HomeTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F57FF48212E89C000AC7DF2 /* HomeTableViewVC.m */; };
+		8F57FF57212E8B9700AC7DF2 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F57FF55212E8B9700AC7DF2 /* SearchViewController.xib */; };
+		8F57FF58212E8B9700AC7DF2 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F57FF56212E8B9700AC7DF2 /* SearchViewController.m */; };
+		8F57FF68212EC32700AC7DF2 /* RequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F57FF67212EC32700AC7DF2 /* RequestTool.m */; };
+		8F9EFE6B212FB34C00C2C601 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9EFE69212FB34C00C2C601 /* HomeViewController.m */; };
+		8F9EFE6C212FB34C00C2C601 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9EFE6A212FB34C00C2C601 /* HomeViewController.xib */; };
+		8F9EFE6F212FB35F00C2C601 /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9EFE6E212FB35F00C2C601 /* HomeViewModel.m */; };
+		8F9EFE72212FD9F800C2C601 /* RequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9EFE71212FD9F800C2C601 /* RequestModel.m */; };
+		8F9EFEA6212FEF7400C2C601 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 8F9EFEA5212FEF7400C2C601 /* File */; };
+		8F9EFEAB212FF12100C2C601 /* HomeImageListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9EFEA9212FF12100C2C601 /* HomeImageListCell.m */; };
+		8F9EFEAC212FF12100C2C601 /* HomeImageListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9EFEAA212FF12100C2C601 /* HomeImageListCell.xib */; };
+		8F9EFEAF212FF2F200C2C601 /* HomeImageListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9EFEAE212FF2F200C2C601 /* HomeImageListModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F57FF2B212E58E500AC7DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F57FF0A212E58DE00AC7DF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F57FF11212E58DE00AC7DF2;
+			remoteInfo = EasyReactDemo;
+		};
+		8F57FF36212E58E500AC7DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F57FF0A212E58DE00AC7DF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F57FF11212E58DE00AC7DF2;
+			remoteInfo = EasyReactDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13A3873ADB2CE5BA6DECCC18 /* Pods-EasyReactDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyReactDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyReactDemo/Pods-EasyReactDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		38D53943213B36F968C3C601 /* Pods-EasyReactDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyReactDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyReactDemoTests/Pods-EasyReactDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F274C8BD82142E5BD6CB6E6 /* Pods-EasyReactDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyReactDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyReactDemoUITests/Pods-EasyReactDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B46F583E763D5216BCDD11F /* libPods-EasyReactDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyReactDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E194D8426686739A19531B1 /* Pods-EasyReactDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyReactDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyReactDemo/Pods-EasyReactDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8F57FF12212E58DE00AC7DF2 /* EasyReactDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyReactDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F57FF15212E58DE00AC7DF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F57FF16212E58DE00AC7DF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F57FF18212E58DE00AC7DF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F57FF19212E58DE00AC7DF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F57FF1C212E58DE00AC7DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F57FF1E212E58E500AC7DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F57FF21212E58E500AC7DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F57FF23212E58E500AC7DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F57FF24212E58E500AC7DF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F57FF2A212E58E500AC7DF2 /* EasyReactDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyReactDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F57FF2E212E58E500AC7DF2 /* EasyReactDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyReactDemoTests.m; sourceTree = "<group>"; };
+		8F57FF30212E58E500AC7DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F57FF35212E58E500AC7DF2 /* EasyReactDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyReactDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F57FF39212E58E500AC7DF2 /* EasyReactDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyReactDemoUITests.m; sourceTree = "<group>"; };
+		8F57FF3B212E58E500AC7DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F57FF47212E89C000AC7DF2 /* HomeTableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewVC.h; sourceTree = "<group>"; };
+		8F57FF48212E89C000AC7DF2 /* HomeTableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewVC.m; sourceTree = "<group>"; };
+		8F57FF54212E8B9600AC7DF2 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		8F57FF55212E8B9700AC7DF2 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		8F57FF56212E8B9700AC7DF2 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		8F57FF66212EC32700AC7DF2 /* RequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTool.h; sourceTree = "<group>"; };
+		8F57FF67212EC32700AC7DF2 /* RequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestTool.m; sourceTree = "<group>"; };
+		8F9EFE68212FB34C00C2C601 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8F9EFE69212FB34C00C2C601 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8F9EFE6A212FB34C00C2C601 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		8F9EFE6D212FB35F00C2C601 /* HomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewModel.h; sourceTree = "<group>"; };
+		8F9EFE6E212FB35F00C2C601 /* HomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewModel.m; sourceTree = "<group>"; };
+		8F9EFE70212FD9F800C2C601 /* RequestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestModel.h; sourceTree = "<group>"; };
+		8F9EFE71212FD9F800C2C601 /* RequestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestModel.m; sourceTree = "<group>"; };
+		8F9EFEA5212FEF7400C2C601 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		8F9EFEA8212FF12100C2C601 /* HomeImageListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeImageListCell.h; sourceTree = "<group>"; };
+		8F9EFEA9212FF12100C2C601 /* HomeImageListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeImageListCell.m; sourceTree = "<group>"; };
+		8F9EFEAA212FF12100C2C601 /* HomeImageListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeImageListCell.xib; sourceTree = "<group>"; };
+		8F9EFEAD212FF2F200C2C601 /* HomeImageListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeImageListModel.h; sourceTree = "<group>"; };
+		8F9EFEAE212FF2F200C2C601 /* HomeImageListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeImageListModel.m; sourceTree = "<group>"; };
+		D1CCFECDFA8654246FA49880 /* Pods-EasyReactDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyReactDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyReactDemoTests/Pods-EasyReactDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC668C3A1FD032EF2A153DA4 /* libPods-EasyReactDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyReactDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC76FAB8882207A252BA83AF /* libPods-EasyReactDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyReactDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2525B511EF7A4D8F695727 /* Pods-EasyReactDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyReactDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyReactDemoUITests/Pods-EasyReactDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F57FF0F212E58DE00AC7DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DE9DAC16F5F71D07628A1C /* libPods-EasyReactDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F57FF27212E58E500AC7DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7260AFF2FED6BBCFBA775A2E /* libPods-EasyReactDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F57FF32212E58E500AC7DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9CB0A681AEFD038F8C20EF /* libPods-EasyReactDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2485E6829B1109CDF0F45C21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC668C3A1FD032EF2A153DA4 /* libPods-EasyReactDemo.a */,
+				DC76FAB8882207A252BA83AF /* libPods-EasyReactDemoTests.a */,
+				5B46F583E763D5216BCDD11F /* libPods-EasyReactDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F57FF09212E58DE00AC7DF2 = {
+			isa = PBXGroup;
+			children = (
+				8F57FF14212E58DE00AC7DF2 /* EasyReactDemo */,
+				8F57FF2D212E58E500AC7DF2 /* EasyReactDemoTests */,
+				8F57FF38212E58E500AC7DF2 /* EasyReactDemoUITests */,
+				8F57FF13212E58DE00AC7DF2 /* Products */,
+				A14F8EF757DDC82025358B79 /* Pods */,
+				2485E6829B1109CDF0F45C21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F57FF13212E58DE00AC7DF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F57FF12212E58DE00AC7DF2 /* EasyReactDemo.app */,
+				8F57FF2A212E58E500AC7DF2 /* EasyReactDemoTests.xctest */,
+				8F57FF35212E58E500AC7DF2 /* EasyReactDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F57FF14212E58DE00AC7DF2 /* EasyReactDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F57FF15212E58DE00AC7DF2 /* AppDelegate.h */,
+				8F57FF16212E58DE00AC7DF2 /* AppDelegate.m */,
+				8F57FF5F212EC28700AC7DF2 /* Request */,
+				8F57FF4F212E8B7F00AC7DF2 /* SearchDemo */,
+				8F57FF47212E89C000AC7DF2 /* HomeTableViewVC.h */,
+				8F57FF48212E89C000AC7DF2 /* HomeTableViewVC.m */,
+				8F57FF18212E58DE00AC7DF2 /* ViewController.h */,
+				8F57FF19212E58DE00AC7DF2 /* ViewController.m */,
+				8F9EFEA5212FEF7400C2C601 /* File */,
+				8F57FF1B212E58DE00AC7DF2 /* Main.storyboard */,
+				8F57FF1E212E58E500AC7DF2 /* Assets.xcassets */,
+				8F57FF20212E58E500AC7DF2 /* LaunchScreen.storyboard */,
+				8F57FF23212E58E500AC7DF2 /* Info.plist */,
+				8F57FF24212E58E500AC7DF2 /* main.m */,
+			);
+			path = EasyReactDemo;
+			sourceTree = "<group>";
+		};
+		8F57FF2D212E58E500AC7DF2 /* EasyReactDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F57FF2E212E58E500AC7DF2 /* EasyReactDemoTests.m */,
+				8F57FF30212E58E500AC7DF2 /* Info.plist */,
+			);
+			path = EasyReactDemoTests;
+			sourceTree = "<group>";
+		};
+		8F57FF38212E58E500AC7DF2 /* EasyReactDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F57FF39212E58E500AC7DF2 /* EasyReactDemoUITests.m */,
+				8F57FF3B212E58E500AC7DF2 /* Info.plist */,
+			);
+			path = EasyReactDemoUITests;
+			sourceTree = "<group>";
+		};
+		8F57FF4F212E8B7F00AC7DF2 /* SearchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F57FF51212E8B7F00AC7DF2 /* VC */,
+			);
+			path = SearchDemo;
+			sourceTree = "<group>";
+		};
+		8F57FF51212E8B7F00AC7DF2 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				8F57FF54212E8B9600AC7DF2 /* SearchViewController.h */,
+				8F57FF56212E8B9700AC7DF2 /* SearchViewController.m */,
+				8F57FF55212E8B9700AC7DF2 /* SearchViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		8F57FF5F212EC28700AC7DF2 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				8F9EFEA7212FF10700C2C601 /* View */,
+				8F57FF60212EC28700AC7DF2 /* ViewModel */,
+				8F57FF61212EC28700AC7DF2 /* VC */,
+				8F57FF62212EC28700AC7DF2 /* Model */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		8F57FF60212EC28700AC7DF2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8F57FF66212EC32700AC7DF2 /* RequestTool.h */,
+				8F57FF67212EC32700AC7DF2 /* RequestTool.m */,
+				8F9EFE6D212FB35F00C2C601 /* HomeViewModel.h */,
+				8F9EFE6E212FB35F00C2C601 /* HomeViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8F57FF61212EC28700AC7DF2 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				8F9EFE68212FB34C00C2C601 /* HomeViewController.h */,
+				8F9EFE69212FB34C00C2C601 /* HomeViewController.m */,
+				8F9EFE6A212FB34C00C2C601 /* HomeViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		8F57FF62212EC28700AC7DF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F9EFE70212FD9F800C2C601 /* RequestModel.h */,
+				8F9EFE71212FD9F800C2C601 /* RequestModel.m */,
+				8F9EFEAD212FF2F200C2C601 /* HomeImageListModel.h */,
+				8F9EFEAE212FF2F200C2C601 /* HomeImageListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F9EFEA7212FF10700C2C601 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F9EFEA8212FF12100C2C601 /* HomeImageListCell.h */,
+				8F9EFEA9212FF12100C2C601 /* HomeImageListCell.m */,
+				8F9EFEAA212FF12100C2C601 /* HomeImageListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A14F8EF757DDC82025358B79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13A3873ADB2CE5BA6DECCC18 /* Pods-EasyReactDemo.debug.xcconfig */,
+				7E194D8426686739A19531B1 /* Pods-EasyReactDemo.release.xcconfig */,
+				D1CCFECDFA8654246FA49880 /* Pods-EasyReactDemoTests.debug.xcconfig */,
+				38D53943213B36F968C3C601 /* Pods-EasyReactDemoTests.release.xcconfig */,
+				EC2525B511EF7A4D8F695727 /* Pods-EasyReactDemoUITests.debug.xcconfig */,
+				4F274C8BD82142E5BD6CB6E6 /* Pods-EasyReactDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F57FF11212E58DE00AC7DF2 /* EasyReactDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F57FF3E212E58E500AC7DF2 /* Build configuration list for PBXNativeTarget "EasyReactDemo" */;
+			buildPhases = (
+				A8D06E8900876D5AFA0ABE7F /* [CP] Check Pods Manifest.lock */,
+				8F57FF0E212E58DE00AC7DF2 /* Sources */,
+				8F57FF0F212E58DE00AC7DF2 /* Frameworks */,
+				8F57FF10212E58DE00AC7DF2 /* Resources */,
+				6D3317AD42CCB612E952DC27 /* [CP] Embed Pods Frameworks */,
+				A7A96ADB13CE40EBA54149FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyReactDemo;
+			productName = EasyReactDemo;
+			productReference = 8F57FF12212E58DE00AC7DF2 /* EasyReactDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F57FF29212E58E500AC7DF2 /* EasyReactDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F57FF41212E58E500AC7DF2 /* Build configuration list for PBXNativeTarget "EasyReactDemoTests" */;
+			buildPhases = (
+				AB8EC4EDC096A30E82575B24 /* [CP] Check Pods Manifest.lock */,
+				8F57FF26212E58E500AC7DF2 /* Sources */,
+				8F57FF27212E58E500AC7DF2 /* Frameworks */,
+				8F57FF28212E58E500AC7DF2 /* Resources */,
+				297696EEF5C2169E35D9111D /* [CP] Embed Pods Frameworks */,
+				FCCB6B064A33DD5B6A4E69D8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F57FF2C212E58E500AC7DF2 /* PBXTargetDependency */,
+			);
+			name = EasyReactDemoTests;
+			productName = EasyReactDemoTests;
+			productReference = 8F57FF2A212E58E500AC7DF2 /* EasyReactDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F57FF34212E58E500AC7DF2 /* EasyReactDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F57FF44212E58E500AC7DF2 /* Build configuration list for PBXNativeTarget "EasyReactDemoUITests" */;
+			buildPhases = (
+				1E701481F7B77B626E8004A5 /* [CP] Check Pods Manifest.lock */,
+				8F57FF31212E58E500AC7DF2 /* Sources */,
+				8F57FF32212E58E500AC7DF2 /* Frameworks */,
+				8F57FF33212E58E500AC7DF2 /* Resources */,
+				B3B511D087A655F4848972BA /* [CP] Embed Pods Frameworks */,
+				178845EEF336A4E2BC2035FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F57FF37212E58E500AC7DF2 /* PBXTargetDependency */,
+			);
+			name = EasyReactDemoUITests;
+			productName = EasyReactDemoUITests;
+			productReference = 8F57FF35212E58E500AC7DF2 /* EasyReactDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F57FF0A212E58DE00AC7DF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = chs;
+				TargetAttributes = {
+					8F57FF11212E58DE00AC7DF2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8F57FF29212E58E500AC7DF2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8F57FF11212E58DE00AC7DF2;
+					};
+					8F57FF34212E58E500AC7DF2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8F57FF11212E58DE00AC7DF2;
+					};
+				};
+			};
+			buildConfigurationList = 8F57FF0D212E58DE00AC7DF2 /* Build configuration list for PBXProject "EasyReactDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F57FF09212E58DE00AC7DF2;
+			productRefGroup = 8F57FF13212E58DE00AC7DF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F57FF11212E58DE00AC7DF2 /* EasyReactDemo */,
+				8F57FF29212E58E500AC7DF2 /* EasyReactDemoTests */,
+				8F57FF34212E58E500AC7DF2 /* EasyReactDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F57FF10212E58DE00AC7DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F57FF22212E58E500AC7DF2 /* LaunchScreen.storyboard in Resources */,
+				8F57FF1F212E58E500AC7DF2 /* Assets.xcassets in Resources */,
+				8F9EFEA6212FEF7400C2C601 /* File in Resources */,
+				8F9EFE6C212FB34C00C2C601 /* HomeViewController.xib in Resources */,
+				8F57FF57212E8B9700AC7DF2 /* SearchViewController.xib in Resources */,
+				8F9EFEAC212FF12100C2C601 /* HomeImageListCell.xib in Resources */,
+				8F57FF1D212E58DE00AC7DF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F57FF28212E58E500AC7DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F57FF33212E58E500AC7DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		178845EEF336A4E2BC2035FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyReactDemoUITests/Pods-EasyReactDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E701481F7B77B626E8004A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyReactDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		297696EEF5C2169E35D9111D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyReactDemoTests/Pods-EasyReactDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D3317AD42CCB612E952DC27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyReactDemo/Pods-EasyReactDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7A96ADB13CE40EBA54149FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasyReactDemo/Pods-EasyReactDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyReactDemo/Pods-EasyReactDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D06E8900876D5AFA0ABE7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyReactDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB8EC4EDC096A30E82575B24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyReactDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B511D087A655F4848972BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyReactDemoUITests/Pods-EasyReactDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCCB6B064A33DD5B6A4E69D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyReactDemoTests/Pods-EasyReactDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F57FF0E212E58DE00AC7DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F57FF1A212E58DE00AC7DF2 /* ViewController.m in Sources */,
+				8F57FF68212EC32700AC7DF2 /* RequestTool.m in Sources */,
+				8F9EFEAF212FF2F200C2C601 /* HomeImageListModel.m in Sources */,
+				8F57FF49212E89C000AC7DF2 /* HomeTableViewVC.m in Sources */,
+				8F57FF25212E58E500AC7DF2 /* main.m in Sources */,
+				8F9EFEAB212FF12100C2C601 /* HomeImageListCell.m in Sources */,
+				8F9EFE72212FD9F800C2C601 /* RequestModel.m in Sources */,
+				8F57FF58212E8B9700AC7DF2 /* SearchViewController.m in Sources */,
+				8F9EFE6B212FB34C00C2C601 /* HomeViewController.m in Sources */,
+				8F57FF17212E58DE00AC7DF2 /* AppDelegate.m in Sources */,
+				8F9EFE6F212FB35F00C2C601 /* HomeViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F57FF26212E58E500AC7DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F57FF2F212E58E500AC7DF2 /* EasyReactDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F57FF31212E58E500AC7DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F57FF3A212E58E500AC7DF2 /* EasyReactDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F57FF2C212E58E500AC7DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F57FF11212E58DE00AC7DF2 /* EasyReactDemo */;
+			targetProxy = 8F57FF2B212E58E500AC7DF2 /* PBXContainerItemProxy */;
+		};
+		8F57FF37212E58E500AC7DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F57FF11212E58DE00AC7DF2 /* EasyReactDemo */;
+			targetProxy = 8F57FF36212E58E500AC7DF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F57FF1B212E58DE00AC7DF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F57FF1C212E58DE00AC7DF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F57FF20212E58E500AC7DF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F57FF21212E58E500AC7DF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F57FF3C212E58E500AC7DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F57FF3D212E58E500AC7DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F57FF3F212E58E500AC7DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A3873ADB2CE5BA6DECCC18 /* Pods-EasyReactDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyReactDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chs.EasyReactDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F57FF40212E58E500AC7DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E194D8426686739A19531B1 /* Pods-EasyReactDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyReactDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chs.EasyReactDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F57FF42212E58E500AC7DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CCFECDFA8654246FA49880 /* Pods-EasyReactDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyReactDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chs.EasyReactDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyReactDemo.app/EasyReactDemo";
+			};
+			name = Debug;
+		};
+		8F57FF43212E58E500AC7DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D53943213B36F968C3C601 /* Pods-EasyReactDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyReactDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chs.EasyReactDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyReactDemo.app/EasyReactDemo";
+			};
+			name = Release;
+		};
+		8F57FF45212E58E500AC7DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2525B511EF7A4D8F695727 /* Pods-EasyReactDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyReactDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chs.EasyReactDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyReactDemo;
+			};
+			name = Debug;
+		};
+		8F57FF46212E58E500AC7DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F274C8BD82142E5BD6CB6E6 /* Pods-EasyReactDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyReactDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chs.EasyReactDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyReactDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F57FF0D212E58DE00AC7DF2 /* Build configuration list for PBXProject "EasyReactDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F57FF3C212E58E500AC7DF2 /* Debug */,
+				8F57FF3D212E58E500AC7DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F57FF3E212E58E500AC7DF2 /* Build configuration list for PBXNativeTarget "EasyReactDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F57FF3F212E58E500AC7DF2 /* Debug */,
+				8F57FF40212E58E500AC7DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F57FF41212E58E500AC7DF2 /* Build configuration list for PBXNativeTarget "EasyReactDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F57FF42212E58E500AC7DF2 /* Debug */,
+				8F57FF43212E58E500AC7DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F57FF44212E58E500AC7DF2 /* Build configuration list for PBXNativeTarget "EasyReactDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F57FF45212E58E500AC7DF2 /* Debug */,
+				8F57FF46212E58E500AC7DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F57FF0A212E58DE00AC7DF2 /* Project object */;
+}
