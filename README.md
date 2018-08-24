@@ -1,8 +1,8 @@
 # EasyReactDemo
-对美团开源的EasyReact框架做了关于网络请求的demo,支持一个页面同时进行多个请求
-![image](https://github.com/cheniOS/EasyReactDemo/blob/master/yulan.gif)
 
-<p>通过节点对model进行监听，并通过requestUrl对监听得到的数据进行区分</p>
+* 对美团开源的EasyReact框架做了关于网络请求的demo,支持一个页面同时进行多个请求
+![image](https://github.com/cheniOS/EasyReactDemo/blob/master/yulan.gif)
+* 通过节点对model进行监听，并通过requestUrl对监听得到的数据进行区分
 <pre><code>
 @interface RequestResultModel : NSObject
 @property(nonatomic ,copy)NSString * requestUrl;//请求的接口
